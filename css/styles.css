@@ -2,7 +2,9 @@
 
 .main-header{
     border-bottom: 1px solid #e7e9fc;
-    display: flex; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
 }
 
 .container{
@@ -21,12 +23,11 @@
 .menu{
     display: flex;
     gap: 40px;
-    /* padding: 24px 0 24px; */
+    margin: 24px 0;
+    padding: 0;
 }
 
-.menu-item{
-    padding: 24px 0;
-}
+
 
 .main-body{
     font-family:Roboto, sans-serif;
