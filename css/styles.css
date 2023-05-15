@@ -80,6 +80,10 @@ margin-right: 76px;
     gap: 24px;
 }
 
+.list-last-sec{
+    display: flex;
+    gap: 24px;
+}
 
 .list-item-sec-second{
     flex-basis: calc((100% - 3 * 24px) / 4);
@@ -167,6 +171,7 @@ line-height: 24px;
 letter-spacing: 0.02em;
 color: #2E2F42;
 margin-bottom: 8px;
+text-align: center;
 }
 
 
@@ -225,6 +230,7 @@ margin-bottom: 72px;
 
 .team-sec{
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 
@@ -235,6 +241,7 @@ margin-bottom: 72px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42;
+    margin-bottom: 72px; 
 }
 
 
@@ -256,11 +263,18 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
+text-align: center;
+}
+
+.team-container{
+    padding: 32px 16px;
 }
 
 
 .list-item{
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 
