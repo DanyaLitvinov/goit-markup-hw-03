@@ -116,7 +116,8 @@ line-height: 60px;
 text-align: center;
 letter-spacing: 0.02em;
 line-height: 1.07;
-color: #ffffff
+color: #ffffff;
+max-width: 496px;
 }
 
 
@@ -127,13 +128,18 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-display: flex;
+min-width: 169px;
+display: block;
 align-items: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 padding: 16px 32px;
 gap: 10px;
 cursor: pointer;
+height: 56px;
+border: none;
+background-color:#4d5ae5;
+border-radius: 4px;
 }
 
 
@@ -174,6 +180,7 @@ color: #2E2F42;
 
 .sec-main{
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 
