@@ -378,3 +378,8 @@ max-width: 264px;
     gap: 24px;
     margin-bottom: 72px;
 }
+
+
+.main-sec-content{
+    padding: 96px 0 120px;
+}
