@@ -398,3 +398,11 @@ max-width: 264px;
   border: 1px solid #e7e9fc;
   border-top: none; 
 }
+
+
+.babas-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}
