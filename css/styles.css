@@ -322,17 +322,22 @@ max-width: 264px;
     color: #4d5ae5;
     background-color: #F4F4FD;
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 
 .sec-button:hover {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
   }
   
   .sec-button:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
   }
 
 
@@ -356,4 +361,17 @@ max-width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+
+.main-sec{
+    padding: 96px 0 120px;
+}
+
+
+.main-sec-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
 }
