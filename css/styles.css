@@ -439,6 +439,11 @@ max-width: 264px;
     align-items: center;
 }
 
+.babas{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+}
+
 .logo-footer{
     margin-bottom:16px;
 }
