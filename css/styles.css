@@ -150,7 +150,7 @@ letter-spacing: 0.02em;
 line-height: 1.07;
 color: #ffffff;
 max-width: 496px;
-margin-bottom:48px;
+margin: 0 auto 48px auto;
 }
 
 
@@ -173,6 +173,7 @@ height: 56px;
 border: none;
 background-color:#4d5ae5;
 border-radius: 4px;
+margin: 0 auto;
 }
 
 
@@ -403,12 +404,6 @@ max-width: 264px;
     padding: 96px 0 120px;
 }
 
-
-.babas{
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none; 
-}
 
 
 .babas-menu{
