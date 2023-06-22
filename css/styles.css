@@ -30,8 +30,7 @@ li{list-style-type:none;}
 .menu{
     display: flex;
     gap: 40px;
-    margin: 24px 0;
-    padding: 0;
+   
 }
 
 
@@ -74,9 +73,9 @@ display: inline-block;
 
 
 .list{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .list-sec-second{
@@ -113,10 +112,10 @@ color: #404bbf;
     color: #404bbf;
     }
 
-.menu-item{
-    padding: 24px 0;
+.contact-list{
+    display: flex;
+    gap: 40px;
 }
-
 
 .menu-link{
 font-family: 'Roboto', sans-serif;
